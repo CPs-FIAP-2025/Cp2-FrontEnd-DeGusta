@@ -227,7 +227,7 @@ img {
     height: 100vh;
     min-height: 700px;
     position: relative;
-    background: url('/img/fundo.png') no-repeat center center/cover;
+    background: url('../assets/img/fundo.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     color: #f5f5f5;
