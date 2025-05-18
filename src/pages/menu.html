@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="website icon" href="../assets/img/icon.png">
+    <title>Equipe | De gusta</title>
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="./menu.html" class="logo">
+                <img src="../assets/img/logo.png" alt="De Gusto Logo">
+            </a>
+
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="../../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../../index.html#about" class="nav-link">Sobre</a></li>
+                    <li><a href="./menu.html" class="nav-link active">Menu</a></li>
+                    <li><a href="../../index.html#gallery" class="nav-link">Galeria</a></li>
+                    <li><a href="./equipe.html" class="nav-link">Equipe</a></li>
+                    <li><a href="#contatos" class="nav-link">Contato</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="#reservation" class="btn btn-primary">Reservas</a>
+                </div>
+
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="conteudo-principal">
+        <section class="cardapio-section">
+            <section id="cardapio-ctg">
+                <div class="container">
+                    <div class="cabecalho-cardapio">
+                        <h2>Cardápio De Gusta</h2>
+                        <p>Sabores autênticos do México</p>
+                        <div class="divisor-cardapio">
+                            <span></span>
+                            <i class="fas fa-pepper-hot"></i>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="categorias-cardapio">
+                        <button class="botao-categoria ativo" data-categoria="entradas">Entradas</button>
+                        <button class="botao-categoria" data-categoria="principais">Pratos Principais</button>
+                        <button class="botao-categoria" data-categoria="sobremesas">Sobremesas</button>
+                        <button class="botao-categoria" data-categoria="bebidas">Bebidas</button>
+                    </div>
+            </section>
+
+            <article class="item-align">
+
+                <div class="itens-cardapio" id="entradas">
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/entradas/guacamole.jpeg" alt="Guacamole Tradicional"
+                                loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Guacamole Tradicional <span class="preco">R$ 32,00</span></h3>
+                            <p>Abacate amassado com tomate, cebola roxa, coentro, limão e pimenta jalapeño servido com
+                                totopos</p>
+                            <span class="destaque-item"><i class="fas fa-pepper-hot"></i> Mais pedido!</span>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/entradas/quesadilha-de-queijo.webp"
+                                alt="Quesadilla de Queijo" loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Quesadilla de Queijo <span class="preco">R$ 28,00</span></h3>
+                            <p>Tortilla de farinha recheada com queijo derretido e acompanhada de molho de pimenta</p>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/entradas/Nacho-Supreme.png" alt="Nachos Supreme"
+                                loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Nachos Supreme <span class="preco">R$ 45,00</span></h3>
+                            <p>Nachos crocantes cobertos com queijo derretido, feijão, guacamole, pico de gallo e creme
+                                azedo</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="itens-cardapio" id="principais" style="display: none;">
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/pratos principais/tacosDeCarnitas.jpeg"
+                                alt="Tacos de Carnitas" loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Tacos de Carnitas <span class="preco">R$ 48,00</span></h3>
+                            <p>3 tortilhas de milho com carne de porco desfiada, cebola, coentro e molho verde</p>
+                            <span class="destaque-item"><i class="fas fa-star"></i> Especialidade da casa</span>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/pratos principais/burrito-mexicano.jpeg"
+                                alt="Burrito Mexicano" loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Burrito Mexicano <span class="preco">R$ 52,00</span></h3>
+                            <p>Tortilla de farinha recheada com carne moída, arroz, feijão, queijo e vegetais</p>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/pratos principais/enchiladas-verdes.avif"
+                                alt="Enchiladas Verdes" loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Enchiladas Verdes <span class="preco">R$ 56,00</span></h3>
+                            <p>Tortilhas de milho recheadas com frango desfiado, cobertas com molho verde e queijo
+                                derretido
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="itens-cardapio" id="sobremesas" style="display: none;">
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/sobremesas/churros-mexicano.webp" alt="Churros Mexicanos"
+                                loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Churros Mexicanos <span class="preco">R$ 28,00</span></h3>
+                            <p>Churros crocantes polvilhados com açúcar e canela, servidos com chocolate quente</p>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/sobremesas/flan-de-coco.jpg" alt="Flan de Coco"
+                                loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Flan de Coco <span class="preco">R$ 32,00</span></h3>
+                            <p>Pudim de leite condensado com coco e calda de caramelo</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="itens-cardapio" id="bebidas" style="display: none;">
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/bebidas/margarita-tradicional.jpg"
+                                alt="Margarita Tradicional" loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Margarita Tradicional <span class="preco">R$ 38,00</span></h3>
+                            <p>Tequlia, triple sec, suco de limão e sal na borda do copo</p>
+                            <span class="destaque-item"><i class="fas fa-glass-cheers"></i> Clássico mexicano</span>
+                        </div>
+                    </article>
+
+                    <article class="item-cardapio">
+                        <div class="imagem-item">
+                            <img src="../assets/img/cardapio/bebidas/horchata-mexicana.webp" alt="Horchata Mexicana"
+                                loading="lazy">
+                        </div>
+                        <div class="info-item">
+                            <h3>Horchata Mexicana <span class="preco">R$ 22,00</span></h3>
+                            <p>Bebida refrescante feita com arroz, canela e baunilha</p>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contatos">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="./menu.html">
+                        <img src="../assets/img/logo.png" alt="De Gusto Logo" class="footer-logo">
+                    </a>
+                    <p>Autêntica cozinha mexicana com sabores vibrantes e atmosfera acolhedora.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Equipe Linkedin</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/leeosilvp/" target="_blank">Leonardo Silva</a></li>
+                        <li><a href="https://www.linkedin.com/in/samuel-monteiro-5b0184325/" target="_blank">Samuel
+                                Enzo</a></li>
+                        <li><a href="https://www.linkedin.com/in/lucas-toledo-cortonezi-10a851350/"
+                                target="_blank">Lucas Toledo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy;De Gusta | 2025. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

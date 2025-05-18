@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="website icon" href="./src/assets/img/icon.png">
+    <title>inicio | De gusta</title>
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img src="./src/assets/img/logo.png" alt="De Gusto Logo">
+            </a>
+
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="./src/pages/menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                    <li><a href="./src/pages/equipe.html" class="nav-link">Equipe</a></li>
+                    <li><a href="#contatos" class="nav-link">Contato</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="#reservation" class="btn btn-primary">Reservas</a>
+                </div>
+
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sabores <span>Autênticos</span> do México</h1>
+                <p class="hero-subtitle">Experiência gastronômica com ingredientes frescos e técnicas tradicionais</p>
+                <div class="hero-btns">
+                    <a href="./src/pages/menu.html" class="btn btn-primary">Ver Menu</a>
+                    <a href="#reservation" class="btn btn-outline">Reservar Mesa</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nossa História</span>
+                <h2 class="section-title">Bem-vindo ao De Gusto</h2>
+                <div class="divider">
+                    <span></span>
+                    <i class="fas fa-pepper-hot"></i>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Fundado em 2010, o De Gusto nasceu da paixão pela rica culinária mexicana. Nosso chef executivo,
+                        Juan Martínez, traz mais de 20 anos de experiência diretamente da Cidade do México para oferecer
+                        uma experiência gastronômica autêntica.</p>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Cozinha Tradicional</h3>
+                            <p>Receitas passadas por gerações, preparadas com técnicas autênticas</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Ingredientes Frescos</h3>
+                            <p>Selecionamos os melhores ingredientes locais e importados</p>
+                        </div>
+                    </div>
+
+                    <a href="./src/pages/equipe.html" class="btn btn-secondary">Conheça nossa equipe</a>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="./src/assets/img/img-interior.png" alt="Interior do Restaurante De Gusto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeria</h2>
+                <div class="divider">
+                    <span></span>
+                    <i class="fas fa-pepper-hot"></i>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./src/assets/img/cardapio/sobremesas/flan-de-coco.jpg" alt="Flan de coco">
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/assets/img/cardapio/pratos principais/burrito-mexicano.jpeg" alt="Burrito">
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/assets/img/cardapio/sobremesas/churros-mexicano.webp" alt="Churros">
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/assets/img/cardapio/bebidas/margarita-tradicional.jpg" alt="Margarita">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="section reservation" id="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-form">
+                    <h2>Reserve sua Mesa</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nome Completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Telefone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" required>
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="" disabled selected>Pessoas</option>
+                                    <option value="1">1 Pessoa</option>
+                                    <option value="2">2 Pessoas</option>
+                                    <option value="3">3 Pessoas</option>
+                                    <option value="4">4 Pessoas</option>
+                                    <option value="5+">5+ Pessoas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reservar Agora</button>
+                    </form>
+                </div>
+
+                <div class="reservation-info">
+                    <h3>Horário de Funcionamento</h3>
+                    <ul class="opening-hours">
+                        <li><span>Segunda - Quinta:</span> 11:00 - 22:00</li>
+                        <li><span>Sexta - Sábado:</span> 11:00 - 23:00</li>
+                        <li><span>Domingo:</span> 11:00 - 21:00</li>
+                    </ul>
+
+                    <div class="contact-info">
+                        <h3>Contato</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1006 - São Paulo, SP</p>
+                        <p><i class="fas fa-phone"></i> (11) 98114-6783</p>
+                        <p><i class="fas fa-envelope"></i> contato@degusta.com.br</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contatos">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="./index.html">
+                        <img src="./src/assets/img/logo.png" alt="De Gusta Logo" class="footer-logo">
+                    </a>
+                    <p>Autêntica cozinha mexicana com sabores vibrantes e atmosfera acolhedora.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Equipe Linkedin</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/leeosilvp/" target="_blank">Leonardo Silva</a></li>
+                        <li><a href="https://www.linkedin.com/in/samuel-monteiro-5b0184325/" target="_blank">Samuel
+                                Enzo</a></li>
+                        <li><a href="https://www.linkedin.com/in/lucas-toledo-cortonezi-10a851350/"
+                                target="_blank">Lucas Toledo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy;De Gusta | 2025. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
