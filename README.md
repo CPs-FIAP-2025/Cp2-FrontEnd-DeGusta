@@ -1,6 +1,6 @@
 # De Gusta 🌶 | Documentação
 
-🔗 Acesse o site aqui: [De Gusta](https://cps-fiap-2025.github.io/CP-FrontEnd-Agnello/)
+🔗 Acesse o site aqui: [[De Gusta](https://cps-fiap-2025.github.io/CP-FrontEnd-Agnello/](https://cps-fiap-2025.github.io/Cp2-FrontEnd-DeGusta/))
 
 ### ✨Sobre o projeto
 
